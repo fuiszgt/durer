@@ -1,1 +1,2 @@
 # durer
+mobilapp a Dürerversenyhez
