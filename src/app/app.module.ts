@@ -3,16 +3,18 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
-import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
+import { SchedulePage } from '../pages/schedule/schedule';
+
+import { ConferenceData } from '../providers/conference-data';
 
 @NgModule({
   declarations: [
     MyApp,
     AboutPage,
     ContactPage,
-    HomePage,
-    TabsPage
+    TabsPage,
+    SchedulePage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -22,9 +24,9 @@ import { TabsPage } from '../pages/tabs/tabs';
     MyApp,
     AboutPage,
     ContactPage,
-    HomePage,
-    TabsPage
+    TabsPage,
+    SchedulePage
   ],
-  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
+  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, ConferenceData]
 })
 export class AppModule {}
