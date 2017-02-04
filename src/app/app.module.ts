@@ -5,7 +5,7 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { TabsPage } from '../pages/tabs/tabs';
 import { SchedulePage } from '../pages/schedule/schedule';
-
+import { SessionDetailPage } from '../pages/session-detail/session-detail';
 import { ConferenceData } from '../providers/conference-data';
 
 @NgModule({
@@ -14,7 +14,8 @@ import { ConferenceData } from '../providers/conference-data';
     AboutPage,
     ContactPage,
     TabsPage,
-    SchedulePage
+    SchedulePage,
+    SessionDetailPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -25,7 +26,8 @@ import { ConferenceData } from '../providers/conference-data';
     AboutPage,
     ContactPage,
     TabsPage,
-    SchedulePage
+    SchedulePage,
+    SessionDetailPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, ConferenceData]
 })

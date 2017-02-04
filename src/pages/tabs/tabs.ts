@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
 import { SchedulePage } from '../schedule/schedule';
+import { SessionDetailPage } from '../session-detail/session-detail';
 import { AboutPage } from '../about/about';
 import { ContactPage } from '../contact/contact';
 
