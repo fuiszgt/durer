@@ -10,9 +10,8 @@
         "timeEnd": "19:00",
         "location": "Karacs Teréz Kollégium",
         "tracks": ["Étkezés"]
-      }]
-    }, {
-      "time": "17:30",
+      }
+      {
       "sessions": [{
         "name": "Regisztráció",
         "location": "Karacs Teréz Kollégium",
@@ -20,14 +19,21 @@
         "timeStart": "17:30",
         "timeEnd": "21:00",
         "tracks": ["Regisztráció"]
+      },]
+    }, 
+        [{
+        "date": "2017-02-11",
+        "groups": [{
+          "time": "7:30",
+          "sessions": [{
+            "name": "Reggeli",
+            "location": "Karacs Teréz Kollégium",
+            "description": " ",
+            "timeStart": "7:30",
+            "timeEnd": "9:00",
+            "tracks": ["Étkezés"]
       }, {
-        "name": "Reggeli",
-        "location": "Karacs Teréz Kollégium",
-        "description": " ",
-        "timeStart": "7:30",
-        "timeEnd": "9:00",
-        "tracks": ["Étkezés"]
-      }, {
+        
         "name": "Regisztráció",
         "location": "Földes Ferenc Gimnázium",
         "description": "A helyszínen a csapatok bejelentkeznek, megkapják az étkezési jegyeket, illetve a részvételi költségről szóló számlákat.",
@@ -36,60 +42,77 @@
         "tracks": ["Regisztráció"]
       }]
     }, {
-      "time": "10:00 am",
+      "time": "10:00",
       "sessions": [{
-        "name": "Migrating to Ionic2",
-        "location": "Room 2201",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Eva Eagle", "Lionel Lion"],
-        "timeStart": "10:00 am",
-        "timeEnd": "10:15 am",
-        "tracks": ["Ionic"]
+        "name": "Megnyitó",
+        "location": "Földes Ferenc Gimnázium",
+        "description": " ",
+        "timeStart": "10:00",
+        "timeEnd": "10:10",
+        "tracks": ["Megnyitó"]
       }, {
-        "name": "The evolution of Ionicons",
-        "location": "Room 2202",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Isabella Iguana", "Eva Eagle"],
-        "timeStart": "10:15 am",
-        "timeEnd": "10:30 am",
-        "tracks": ["Design"]
+        "name": "Első forduló",
+        "location": "Földes Ferenc Gimnázium",
+        "description": "A kísérő tanárokat Veres Pál igazgató úr várja egy közös kávézásra, beszélgetésre, ahol belenézhetnek a feladatsorokba is.",
+        "timeStart": "10:10",
+        "timeEnd": "13:10",
+        "tracks": ["1. forduló"]
       }, {
-        "name": "Ionic.io Services",
-        "location": "Room 2202",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Charlie Cheetah"],
-        "timeStart": "10:30 am",
-        "timeEnd": "11:00 am",
-        "tracks": ["Services"]
+        "name": "Ebéd",
+        "location": "Minorita Menza",
+        "description": " ",
+        "timeStart": "13:10",
+        "timeEnd": "14:15 am",
+        "tracks": ["Ebéd"]
       }]
     }, {
-      "time": "11:00 am",
+      "time": "14:15",
       "sessions": [{
-        "name": "Ionic Workshop",
-        "location": "Room 2201",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Karl Kitten", "Lionel Lion"],
-        "timeStart": "11:00 am",
-        "timeEnd": "11:45 am",
-        "tracks": ["Workshop"]
+        "name": "Rendhagyó tanórák",
+        "location": "Földes Ferenc Gimnázium",
+        "description": "A szervezők kedvenc témáikról beszélnek egy-egy “tanóra” keretein belül.",
+        "timeStart": "14:15",
+        "timeEnd": "15:30",
+        "tracks": ["Rendhagyó órák"]
       }, {
-        "name": "Community Interaction",
-        "location": "Room 2203",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Lionel Lion", "Gino Giraffe"],
-        "timeStart": "11:30 am",
-        "timeEnd": "11:50 am",
-        "tracks": ["Communication"]
+        "name": "Társasjátékozás, Teaház",
+        "location": "Földes Ferenc Gimnázium",
+        "description": "Idén is sok-sok játékkal készülünk, hogy idén is egy nagyon jót tudjatok játszani egymással és velünk is. A Teaházban is számos játékos feladattal várunk benneteket, a jó hangulat mellé teát is biztosítunk.",
+        "timeStart": "14:15",
+        "timeEnd": "19:00",
+        "tracks": ["Társasjáték"]
       }, {
-        "name": "Navigation in Ionic",
-        "location": "Room 2203",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Rachel Rabbit", "Eva Eagle"],
-        "timeStart": "11:30 am",
-        "timeEnd": "12:00 pm",
-        "tracks": ["Navigation"]
+        "name": "Beszélgetés az egyetemekről",
+        "location": "Földes Ferenc Gimnázium",
+        "description": "Mi, szervezők több különböző egyetem, más-más szakjaira járunk. Ennek segítségével szeretnék megválaszolni az érdeklődők felsőoktatással kapcsolatos kérdéseit. Szóval gyertek és beszélgessetek velünk! Érdeklődhettek azzal kapcsolatban, hogy mit tanulunk az adott szakon, mit szeretünk benne, mire kell odafigyelni, miért éppen azt választottuk.",
+        "timeStart": "15:30",
+        "timeEnd": "16:30",
+        "tracks": ["Beszélgetés"]
+      }, {
+        "name": "Kvíz",
+        "location": "Földes Ferenc Gimnázium",
+        "description": "Ebben a programban általános műveltségeteket tehetitek próbára, három különböző kategóriában, korosztály szerint. A kérdéseket nem kell egyedül megválaszolnotok, hisz csapatokban versenyezve vehettek részt.",
+        "timeStart": "16:30",
+        "timeEnd": "18:00",
+        "tracks": ["Kvíz"]
+      }, {
+        "name": "Vacsora",
+        "location": "Karacs Teréz Kollégium",
+        "description": " ",
+        "timeStart": "18:30",
+        "timeEnd": "19:50",
+        "tracks": ["Kvíz"]
       }]
     }, {
+      "time": "12:00 pm",
+      "sessions": [{
+        "name": "Lunch",
+        "location": "Auditorium",
+        "description": "Come grab lunch with all the Ionic fanatics and talk all things Ionic",
+        "timeStart": "12:00 pm",
+        "timeEnd": "1:00 pm",
+        "tracks": ["Food"]
+      }, {
       "time": "12:00 pm",
       "sessions": [{
         "name": "Lunch",
