@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 
-import { AlertController, App, FabContainer, ItemSliding, List, ModalController, NavController, LoadingController } from 'ionic-angular';
+import { AlertController, App, FabContainer, List, ModalController, NavController, LoadingController } from 'ionic-angular';
 
 /*
   To learn how to use third party libs in an
@@ -42,7 +42,7 @@ export class OrganizersPage {
 
   ionViewDidLoad() {
     this.app.setTitle('Organizers');
-    this.updateSchedule();
+    // this.updateSchedule();
   }
 
   

@@ -16,7 +16,7 @@
       "sessions": [{
         "name": "Regisztráció",
         "location": "Karacs Teréz Kollégium",
-        "description": "A csütörtökön érkező csapatok számára. A később érkezők számára péntek reggel, a verseny helyszínén biztosítjuk a regisztrációt."
+        "description": "A csütörtökön érkező csapatok számára. A később érkezők számára péntek reggel, a verseny helyszínén biztosítjuk a regisztrációt.",
         "timeStart": "17:30",
         "timeEnd": "21:00",
         "tracks": ["Regisztráció"]
