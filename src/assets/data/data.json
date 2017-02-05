@@ -1,42 +1,39 @@
 {
 
   "schedule": [{
-    "date": "2047-05-17",
+    "date": "2017-02-10",
     "groups": [{
-      "time": "8:00 am",
+      "time": "17:30",
       "sessions": [{
-        "name": "Breakfast",
-        "timeStart": "8:00 am",
-        "timeEnd": "9:00 am",
-        "location": "Main hallway",
-        "tracks": ["Food"]
+        "name": "Vacsora",
+        "timeStart": "17:30",
+        "timeEnd": "19:00",
+        "location": "Karacs Teréz Kollégium",
+        "tracks": ["Étkezés"]
       }]
     }, {
-      "time": "9:00 am",
+      "time": "17:30",
       "sessions": [{
-        "name": "Introduction to Appcamp.io",
-        "location": "Room 2203",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Ellie Elephant"],
-        "timeStart": "9:00 am",
-        "timeEnd": "9:30 am",
-        "tracks": ["Ionic"]
+        "name": "Regisztráció",
+        "location": "Karacs Teréz Kollégium",
+        "description": "A csütörtökön érkező csapatok számára. A később érkezők számára péntek reggel, a verseny helyszínén biztosítjuk a regisztrációt."
+        "timeStart": "17:30",
+        "timeEnd": "21:00",
+        "tracks": ["Regisztráció"]
       }, {
-        "name": "Getting started with Ionic",
-        "location": "Room 2202",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Ted Turtle"],
-        "timeStart": "9:30 am",
-        "timeEnd": "9:45 am",
-        "tracks": ["Ionic"]
+        "name": "Reggeli",
+        "location": "Karacs Teréz Kollégium",
+        "description": " ",
+        "timeStart": "7:30",
+        "timeEnd": "9:00",
+        "tracks": ["Étkezés"]
       }, {
-        "name": "Tooling for Ionic",
-        "location": "Room 2201",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Rachel Rabbit"],
-        "timeStart": "9:45 am",
-        "timeEnd": "10:00 am",
-        "tracks": ["Tooling"]
+        "name": "Regisztráció",
+        "location": "Földes Ferenc Gimnázium",
+        "description": "A helyszínen a csapatok bejelentkeznek, megkapják az étkezési jegyeket, illetve a részvételi költségről szóló számlákat.",
+        "timeStart": "9:00",
+        "timeEnd": "9:50",
+        "tracks": ["Regisztráció"]
       }]
     }, {
       "time": "10:00 am",
