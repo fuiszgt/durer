@@ -1,202 +1,240 @@
 {
-
   "schedule": [{
-    "date": "2017-02-10",
-    "groups": [{
-      "time": "17:30",
-      "sessions": [{
-        "name": "Vacsora",
-        "timeStart": "17:30",
-        "timeEnd": "19:00",
-        "location": "Karacs Teréz Kollégium",
-        "tracks": ["Étkezés"]
-      }
+				"date": "2017-02-10",
+				"groups": [{
+							"time": "17:30",
+							"sessions": [{
+										"name": "Vacsora",
+										"timeStart": "17:30",
+										"timeEnd": "19:00",
+										"location": "Karacs Teréz Kollégium",
+										"tracks": ["Étkezés"]
+									}, {
+										"sessions": [{
+											"name": "Regisztráció",
+											"location": "Karacs Teréz Kollégium",
+											"description": "A csütörtökön érkező csapatok számára. A később érkezők számára péntek reggel, a verseny helyszínén biztosítjuk a regisztrációt.",
+											"timeStart": "17:30",
+											"timeEnd": "21:00",
+											"tracks": ["Regisztráció"]
+										}]
+									},
+									[{
+											"date": "2017-02-11",
+											"groups": [{
+														"time": "7:30",
+														"sessions": [{
+															"name": "Reggeli",
+															"location": "Karacs Teréz Kollégium",
+															"description": " ",
+															"timeStart": "7:30",
+															"timeEnd": "9:00",
+															"tracks": ["Étkezés"]
+														}, {
+
+															"name": "Regisztráció",
+															"location": "Földes Ferenc Gimnázium",
+															"description": "A helyszínen a csapatok bejelentkeznek, megkapják az étkezési jegyeket, illetve a részvételi költségről szóló számlákat.",
+															"timeStart": "9:00",
+															"timeEnd": "9:50",
+															"tracks": ["Regisztráció"]
+														}]
+													}, {
+														"time": "10:00",
+														"sessions": [{
+															"name": "Megnyitó",
+															"location": "Földes Ferenc Gimnázium",
+															"description": " ",
+															"timeStart": "10:00",
+															"timeEnd": "10:10",
+															"tracks": ["Megnyitó"]
+														}, {
+															"name": "Első forduló",
+															"location": "Földes Ferenc Gimnázium",
+															"description": "A kísérő tanárokat Veres Pál igazgató úr várja egy közös kávézásra, beszélgetésre, ahol belenézhetnek a feladatsorokba is.",
+															"timeStart": "10:10",
+															"timeEnd": "13:10",
+															"tracks": ["1. forduló"]
+														}, {
+															"name": "Ebéd",
+															"location": "Minorita Menza",
+															"description": " ",
+															"timeStart": "13:10",
+															"timeEnd": "14:15 am",
+															"tracks": ["Ebéd"]
+														}]
+													}, {
+														"time": "14:15",
+														"sessions": [{
+															"name": "Rendhagyó tanórák",
+															"location": "Földes Ferenc Gimnázium",
+															"description": "A szervezők kedvenc témáikról beszélnek egy-egy “tanóra” keretein belül.",
+															"timeStart": "14:15",
+															"timeEnd": "15:30",
+															"tracks": ["Rendhagyó órák"]
+														}, {
+															"name": "Társasjátékozás, Teaház",
+															"location": "Földes Ferenc Gimnázium",
+															"description": "Idén is sok-sok játékkal készülünk, hogy idén is egy nagyon jót tudjatok játszani egymással és velünk is. A Teaházban is számos játékos feladattal várunk benneteket, a jó hangulat mellé teát is biztosítunk.",
+															"timeStart": "14:15",
+															"timeEnd": "19:00",
+															"tracks": ["Társasjáték"]
+														}, {
+															"name": "Beszélgetés az egyetemekről",
+															"location": "Földes Ferenc Gimnázium",
+															"description": "Mi, szervezők több különböző egyetem, más-más szakjaira járunk. Ennek segítségével szeretnék megválaszolni az érdeklődők felsőoktatással kapcsolatos kérdéseit. Szóval gyertek és beszélgessetek velünk! Érdeklődhettek azzal kapcsolatban, hogy mit tanulunk az adott szakon, mit szeretünk benne, mire kell odafigyelni, miért éppen azt választottuk.",
+															"timeStart": "15:30",
+															"timeEnd": "16:30",
+															"tracks": ["Beszélgetés"]
+														}, {
+															"name": "Kvíz",
+															"location": "Földes Ferenc Gimnázium",
+															"description": "Ebben a programban általános műveltségeteket tehetitek próbára, három különböző kategóriában, korosztály szerint. A kérdéseket nem kell egyedül megválaszolnotok, hisz csapatokban versenyezve vehettek részt.",
+															"timeStart": "16:30",
+															"timeEnd": "18:00",
+															"tracks": ["Kvíz"]
+														}, {
+															"name": "Vacsora",
+															"location": "Karacs Teréz Kollégium",
+															"description": " ",
+															"timeStart": "18:30",
+															"timeEnd": "19:50",
+															"tracks": ["Kvíz"]
+														}]
+													},
       {
-      "sessions": [{
-        "name": "Regisztráció",
-        "location": "Karacs Teréz Kollégium",
-        "description": "A csütörtökön érkező csapatok számára. A később érkezők számára péntek reggel, a verseny helyszínén biztosítjuk a regisztrációt.",
-        "timeStart": "17:30",
-        "timeEnd": "21:00",
-        "tracks": ["Regisztráció"]
-      },]
-    }, 
-        [{
-        "date": "2017-02-11",
-        "groups": [{
-          "time": "7:30",
-          "sessions": [{
-            "name": "Reggeli",
-            "location": "Karacs Teréz Kollégium",
-            "description": " ",
-            "timeStart": "7:30",
-            "timeEnd": "9:00",
-            "tracks": ["Étkezés"]
-      }, {
-        
-        "name": "Regisztráció",
-        "location": "Földes Ferenc Gimnázium",
-        "description": "A helyszínen a csapatok bejelentkeznek, megkapják az étkezési jegyeket, illetve a részvételi költségről szóló számlákat.",
-        "timeStart": "9:00",
-        "timeEnd": "9:50",
-        "tracks": ["Regisztráció"]
-      }]
-    }, {
-      "time": "10:00",
-      "sessions": [{
-        "name": "Megnyitó",
-        "location": "Földes Ferenc Gimnázium",
-        "description": " ",
-        "timeStart": "10:00",
-        "timeEnd": "10:10",
-        "tracks": ["Megnyitó"]
-      }, {
-        "name": "Első forduló",
-        "location": "Földes Ferenc Gimnázium",
-        "description": "A kísérő tanárokat Veres Pál igazgató úr várja egy közös kávézásra, beszélgetésre, ahol belenézhetnek a feladatsorokba is.",
-        "timeStart": "10:10",
-        "timeEnd": "13:10",
-        "tracks": ["1. forduló"]
-      }, {
-        "name": "Ebéd",
-        "location": "Minorita Menza",
-        "description": " ",
-        "timeStart": "13:10",
-        "timeEnd": "14:15 am",
-        "tracks": ["Ebéd"]
-      }]
-    }, {
-      "time": "14:15",
-      "sessions": [{
-        "name": "Rendhagyó tanórák",
-        "location": "Földes Ferenc Gimnázium",
-        "description": "A szervezők kedvenc témáikról beszélnek egy-egy “tanóra” keretein belül.",
-        "timeStart": "14:15",
-        "timeEnd": "15:30",
-        "tracks": ["Rendhagyó órák"]
-      }, {
-        "name": "Társasjátékozás, Teaház",
-        "location": "Földes Ferenc Gimnázium",
-        "description": "Idén is sok-sok játékkal készülünk, hogy idén is egy nagyon jót tudjatok játszani egymással és velünk is. A Teaházban is számos játékos feladattal várunk benneteket, a jó hangulat mellé teát is biztosítunk.",
-        "timeStart": "14:15",
-        "timeEnd": "19:00",
-        "tracks": ["Társasjáték"]
-      }, {
-        "name": "Beszélgetés az egyetemekről",
-        "location": "Földes Ferenc Gimnázium",
-        "description": "Mi, szervezők több különböző egyetem, más-más szakjaira járunk. Ennek segítségével szeretnék megválaszolni az érdeklődők felsőoktatással kapcsolatos kérdéseit. Szóval gyertek és beszélgessetek velünk! Érdeklődhettek azzal kapcsolatban, hogy mit tanulunk az adott szakon, mit szeretünk benne, mire kell odafigyelni, miért éppen azt választottuk.",
-        "timeStart": "15:30",
-        "timeEnd": "16:30",
-        "tracks": ["Beszélgetés"]
-      }, {
-        "name": "Kvíz",
-        "location": "Földes Ferenc Gimnázium",
-        "description": "Ebben a programban általános műveltségeteket tehetitek próbára, három különböző kategóriában, korosztály szerint. A kérdéseket nem kell egyedül megválaszolnotok, hisz csapatokban versenyezve vehettek részt.",
-        "timeStart": "16:30",
-        "timeEnd": "18:00",
-        "tracks": ["Kvíz"]
-      }, {
-        "name": "Vacsora",
-        "location": "Karacs Teréz Kollégium",
-        "description": " ",
-        "timeStart": "18:30",
-        "timeEnd": "19:50",
-        "tracks": ["Kvíz"]
-      }]
-    }, {
-      "time": "12:00 pm",
-      "sessions": [{
-        "name": "Lunch",
-        "location": "Auditorium",
-        "description": "Come grab lunch with all the Ionic fanatics and talk all things Ionic",
-        "timeStart": "12:00 pm",
-        "timeEnd": "1:00 pm",
-        "tracks": ["Food"]
-      }, {
-      "time": "12:00 pm",
-      "sessions": [{
-        "name": "Lunch",
-        "location": "Auditorium",
-        "description": "Come grab lunch with all the Ionic fanatics and talk all things Ionic",
-        "timeStart": "12:00 pm",
-        "timeEnd": "1:00 pm",
-        "tracks": ["Food"]
-      }]
-    }, {
-      "time": "1:00 pm",
-      "sessions": [{
-        "name": "Ionic in the Enterprise",
-        "location": "Room 2201",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Paul Puppy"],
-        "timeStart": "1:00 pm",
-        "timeEnd": "1:15 pm",
-        "tracks": ["Communication"]
-      }, {
-        "name": "Ionic Worldwide",
-        "location": "Room 2201",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Gino Giraffe"],
-        "timeStart": "1:15 pm",
-        "timeEnd": "1:30 pm",
-        "tracks": ["Communication"]
-      }, {
-        "name": "The Ionic package service",
-        "location": "Room 2203",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Molly Mouse", "Burt Bear"],
-        "timeStart": "1:30 pm",
-        "timeEnd": "2:00 pm",
-        "tracks": ["Services"]
-      }]
-    }, {
-      "time": "2:00 pm",
-      "sessions": [{
-        "name": "Push Notifications in Ionic",
-        "location": "Room 2202",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Burt Bear", "Charlie Cheetah"],
-        "timeStart": "2:00 pm",
-        "timeEnd": "2:30 pm",
-        "tracks": ["Services"]
-      }, {
-        "name": "Ionic Documentation",
-        "location": "Room 2202",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Donald Duck"],
-        "timeStart": "2:30 pm",
-        "timeEnd": "2:45 pm",
-        "tracks": ["Documentation"]
-      }, {
-        "name": "UX planning in Ionic",
-        "location": "Room 2203",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Isabella Iguana", "Ellie Elephant"],
-        "timeStart": "2:45 pm",
-        "timeEnd": "3:00 pm",
-        "tracks": ["Design"]
-      }]
-    }, {
-      "time": "3:00",
-      "sessions": [{
-        "name": "Directives in Ionic",
-        "location": "Room 2201",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Ted Turtle"],
-        "timeStart": "3:00 pm",
-        "timeEnd": "3:30 pm",
-        "tracks": ["Angular"]
-      }, {
-        "name": "Mobile States",
-        "location": "Room 2202",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "speakerNames": ["Rachel Rabbit"],
-        "timeStart": "3:30 pm",
-        "timeEnd": "3:45 pm",
-        "tracks": ["Navigation"]
-      }]
-    }]
-  }],
+
+	[{
+											"date": "2017-02-12",
+											"groups": [{
+														"time": "7:15",
+														"sessions": [{
+															"name": "Reggeli",
+															"location": "Karacs Teréz Kollégium",
+															"description": " ",
+															"timeStart": "7:15",
+															"timeEnd": "8:15",
+															"tracks": ["Étkezés"]
+														}, 
+                                         {
+														"time": "9:00",
+														"sessions": [{
+															"name": "Második forduló",
+															"location": "Földes Ferenc Gimnázium",
+															"description": "A kísérő tanárok élőben követhetik a váltóversenyt a helyszíneken.",
+															"timeStart": "9:00",
+															"timeEnd": "10:30",
+															"tracks": ["2. forduló"]
+														}, 
+													}, {
+														"time": "10:45",
+														"sessions": [{
+															"name": "Licitálós rajzolós",
+															"location": "Földes Ferenc Gimnázium",
+															"description": "Egy új játékkal fogunk megismertetni benneteket, amelyet ott helyben lehet megtanulni. Hogy pontosan mi is ez, az legyen meglepetés :). Utána pedig kisebb-nagyobb csoportokban már mehet is a játék a szervezőkkel.",
+															"timeStart": "10:45",
+															"timeEnd": "12:00",
+															"tracks": ["licitálósjáték"]
+														}, {
+														"time": "12:00",
+														"sessions": [{
+															"name": "Ebéd",
+															"location": "Minorita Menza",
+															"description": " ",
+															"timeStart": "12:00",
+															"timeEnd": "13:15",
+															"tracks": ["Étkezés"]
+														}, {
+														"time": "13:15",
+														"sessions": [{
+															"name": "Megoldásismertetés",
+															"location": "Földes Ferenc Gimnázium",
+															"description": "Kategóriánként különböző termekben a szervezők elmondják a feladatok megoldásait, illetve ezt a javításból szerzett tapasztalatokkal kiegészítik (pl.: tipikus hibák, szép ötletek, pontozási szempontok, általánosítási lehetőségek).",
+															"timeStart": "13:15",
+															"timeEnd": "14:30",
+															"tracks": ["Megoldásismertetés"]
+														}, {
+														"time": "14:30",
+														"sessions": [{
+															"name": "Akadályverseny",
+															"location": "Földes Ferenc Gimnázium",
+															"description": "Körübelül 10-14 fős csapatokban kell megoldanotok az egyes állomások érdekes, vicces feladatait. Könnyen lehet, hogy a csapatnak szüksége lesz minden ügyességére, gyorsaságára és a csapattagok kooperativitására.
+                                              Ezalatt a kísérő tanárokat a szervezők egy beszélgetésre várják a verseny tapasztalatairól.",
+															"timeStart": "14:30",
+															"timeEnd": "17:30",
+															"tracks": ["Akadályverseny"]
+														}, {
+                              "time": "17:30",
+                              "session": [{
+                                  "name": "Vacsora",
+                                  "location": "Minorita Menza",
+                                  "description": " ",
+                                  "timeStart": "17:30",
+                                  "timeEnd": "18:30",
+                                  "tracks": ["Étkezés"]
+														},{
+                              "time": "17:30",
+                              "session": [{
+															  "name": "Ki, mit tud?",
+															  "location": "Földes Ferenc Gimnázium",
+															  "description": "Szeretnéd megmutatni a többieknek, hogy a természettudományokon kívül még mi minden mást tudsz? Akkor jelentkezz egy 3-5 perces produkcióval! Részletes feltételeket később fogjuk ismertetni.",
+															  "timeStart": "18:30",
+															  "timeEnd": "19:30",
+															  "tracks": ["Kimittud"]
+														}]
+													},
+                             {
+                              "time": "19:30",
+                              "session": [{
+															  "name": "Licit",
+															  "location": "Földes Ferenc Gimnázium",
+															  "description": "A Döntő során gyűjtött Dürer Dollárokkal lehet licitálni az értékes nyereményekért.",
+															  "timeStart": "19:30",
+															  "timeEnd": "21:00",
+															  "tracks": ["Licit"]
+														}]
+													},
+                                          [{
+											"date": "2017-02-13",
+											"groups": [{
+														"time": "7:30",
+														"sessions": [{
+															"name": "Reggeli",
+															"location": "Karacs Teréz Kollégium",
+															"description": "Közben hidegcsomagok átvétele.",
+															"timeStart": "7:30",
+															"timeEnd": "8:30",
+															"tracks": ["Étkezés"]
+														}, 
+                                         {
+														"time": "9:00",
+														"sessions": [{
+															"name": "Kijavított megoldások megtekintése",
+															"location": "Földes Ferenc Gimnázium",
+															"description": "Minden csapat megnézheti beadott megoldásait, illetve, hogy mire, hány pontot kapott.",
+															"timeStart": "9:00",
+															"timeEnd": "10:00",
+															"tracks": ["kijavított megoldások megtekintése"]
+														}, 
+													}, {
+														"time": "10:00",
+														"sessions": [{
+															"name": "Dürer, reneszánsz, matematika",
+															"location": "Földes Ferenc Gimnázium",
+															"description": "Hujter Mihály és Bálint közösen tart előadást Dürerről, a reneszánszról és a matematikáról, valamint kapcsolatukról. Számítanak a közönség aktív részvételére!",
+															"timeStart": "10:00",
+															"timeEnd": "11:00",
+															"tracks": ["előadás"]
+														}, {
+														"time": "11:00",
+														"sessions": [{
+															"name": "Eredményhirdetés",
+															"location": "Földes Ferenc Gimnázium",
+															"description": " ",
+															"timeStart": "11:00",
+															"timeEnd": "12:30",
+															"tracks": ["Étkezés"]
+														}, 
 
 
   "organizers": [{
@@ -217,125 +255,20 @@
       }],
 
   "speakers": [{
-    "name": "Burt Bear",
-    "profilePic": "assets/img/speakers/bear.jpg",
-    "twitter": "ionicframework",
-    "about": "Burt is a Bear.",
-    "location": "Everywhere",
-    "email": "burt@example.com",
+    "name": "Szűcs Gábor",
+    "email": "szgabbor [K] gmail [P] com",
     "phone": "+1-541-754-3010"
   }, {
-    "name": "Charlie Cheetah",
-    "profilePic": "assets/img/speakers/cheetah.jpg",
-    "twitter": "ionicframework",
-    "about": "Charlie is a Cheetah.",
-    "location": "Everywhere",
-    "email": "charlie@example.com",
+    "name": "Farkas Ádám László",
+    "email": "faadamla [K] gmail [P] com",
     "phone": "+1-541-754-3010"
   }, {
-    "name": "Donald Duck",
-    "profilePic": "assets/img/speakers/duck.jpg",
-    "twitter": "ionicframework",
-    "about": "Donald is a Duck.",
-    "location": "Everywhere",
-    "email": "donald@example.com",
+    "name": "Czeller Ildi",
+    "email": "matek [K] durerinfo [P] hu",
     "phone": "+1-541-754-3010"
-  }, {
-    "name": "Eva Eagle",
-    "profilePic": "assets/img/speakers/eagle.jpg",
-    "twitter": "ionicframework",
-    "about": "Eva is an Eagle.",
-    "location": "Everywhere",
-    "email": "eva@example.com",
+  },{
+    "name": "Kanyó László",
+    "email": "kemia [K] durerinfo [P] hu",
     "phone": "+1-541-754-3010"
-  }, {
-    "name": "Ellie Elephant",
-    "profilePic": "assets/img/speakers/elephant.jpg",
-    "twitter": "ionicframework",
-    "about": "Ellie is an Elephant.",
-    "location": "Everywhere",
-    "email": "ellie@example.com",
-    "phone": "+1-541-754-3010"
-  }, {
-    "name": "Gino Giraffe",
-    "profilePic": "assets/img/speakers/giraffe.jpg",
-    "twitter": "ionicframework",
-    "about": "Gino is a Giraffe.",
-    "location": "Everywhere",
-    "email": "gino@example.com",
-    "phone": "+1-541-754-3010"
-  }, {
-    "name": "Isabella Iguana",
-    "profilePic": "assets/img/speakers/iguana.jpg",
-    "twitter": "ionicframework",
-    "about": "Isabella is an Iguana.",
-    "location": "Everywhere",
-    "email": "isabella@example.com",
-    "phone": "+1-541-754-3010"
-  }, {
-    "name": "Karl Kitten",
-    "profilePic": "assets/img/speakers/kitten.jpg",
-    "twitter": "ionicframework",
-    "about": "Karl is a Kitten.",
-    "location": "Everywhere",
-    "email": "karl@example.com",
-    "phone": "+1-541-754-3010"
-  }, {
-    "name": "Lionel Lion",
-    "profilePic": "assets/img/speakers/lion.jpg",
-    "twitter": "ionicframework",
-    "about": "Lionel is a Lion.",
-    "location": "Everywhere",
-    "email": "lionel@example.com",
-    "phone": "+1-541-754-3010"
-  }, {
-    "name": "Molly Mouse",
-    "profilePic": "assets/img/speakers/mouse.jpg",
-    "twitter": "ionicframework",
-    "about": "Molly is a Mouse.",
-    "location": "Everywhere",
-    "email": "molly@example.com",
-    "phone": "+1-541-754-3010"
-  }, {
-    "name": "Paul Puppy",
-    "profilePic": "assets/img/speakers/puppy.jpg",
-    "twitter": "ionicframework",
-    "about": "Paul is a Puppy.",
-    "location": "Everywhere",
-    "email": "paul@example.com",
-    "phone": "+1-541-754-3010"
-  }, {
-    "name": "Rachel Rabbit",
-    "profilePic": "assets/img/speakers/rabbit.jpg",
-    "twitter": "ionicframework",
-    "about": "Rachel is a Rabbit.",
-    "location": "Everywhere",
-    "email": "rachel@example.com",
-    "phone": "+1-541-754-3010"
-  }, {
-    "name": "Ted Turtle",
-    "profilePic": "assets/img/speakers/turtle.jpg",
-    "twitter": "ionicframework",
-    "about": "Ted is a Turtle.",
-    "location": "Everywhere",
-    "email": "ted@example.com",
-    "phone": "+1-541-754-3010"
-  }],
-
-
-  "map": [{
-    "name": "Monona Terrace Convention Center",
-    "lat": 43.071584,
-    "lng": -89.380120,
-    "center": true
-  }, {
-    "name": "Ionic HQ",
-    "lat": 43.074395,
-    "lng": -89.381056
-  }, {
-    "name": "Afterparty - Brocach Irish Pub",
-    "lat": 43.07336,
-    "lng": -89.38335
-  }]
-
+  } ],
 }
