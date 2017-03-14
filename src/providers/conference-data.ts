@@ -28,7 +28,7 @@ export class ConferenceData {
     // build up the data by linking speakers to sessions
     this.data = data.json();
 
-    this.data.tracks = [];
+    /*this.data.tracks = [];
 
     // loop through each day in the schedule
     this.data.schedule.forEach((day: any) => {
@@ -57,14 +57,14 @@ export class ConferenceData {
           }
         });
       });
-    });
+    });*/
 
     return this.data;
   }
 
-  getTimeline(dayIndex: number, queryText = '', excludeTracks: any[] = [], segment = 'all') {
+  /*getTimeline(dayIndex: number, queryText = '', excludeTracks: any[] = [], segment = 'all') {
     return this.load().map((data: any) => {
-      let day = data.schedule[dayIndex];
+      let data = data.schedule;
       day.shownSessions = 0;
 
       queryText = queryText.toLowerCase().replace(/,|\.|-/g, ' ');
@@ -86,9 +86,9 @@ export class ConferenceData {
 
       });
 
-      return day;
+      return data;
     });
-  }
+  }*/
 
   filterSession(session: any, queryWords: string[], excludeTracks: any[], segment: string) {
 

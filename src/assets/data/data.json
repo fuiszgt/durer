@@ -9,232 +9,52 @@
 										"timeEnd": "19:00",
 										"location": "Karacs Teréz Kollégium",
 										"tracks": ["Étkezés"]
-									}, {
-										"sessions": [{
-											"name": "Regisztráció",
-											"location": "Karacs Teréz Kollégium",
-											"description": "A csütörtökön érkező csapatok számára. A később érkezők számára péntek reggel, a verseny helyszínén biztosítjuk a regisztrációt.",
-											"timeStart": "17:30",
-											"timeEnd": "21:00",
-											"tracks": ["Regisztráció"]
-										}]
-									},
-									[{
-											"date": "2017-02-11",
-											"groups": [{
-														"time": "7:30",
-														"sessions": [{
-															"name": "Reggeli",
-															"location": "Karacs Teréz Kollégium",
-															"description": " ",
-															"timeStart": "7:30",
-															"timeEnd": "9:00",
-															"tracks": ["Étkezés"]
-														}, {
-
-															"name": "Regisztráció",
-															"location": "Földes Ferenc Gimnázium",
-															"description": "A helyszínen a csapatok bejelentkeznek, megkapják az étkezési jegyeket, illetve a részvételi költségről szóló számlákat.",
-															"timeStart": "9:00",
-															"timeEnd": "9:50",
-															"tracks": ["Regisztráció"]
-														}]
-													}, {
-														"time": "10:00",
-														"sessions": [{
-															"name": "Megnyitó",
-															"location": "Földes Ferenc Gimnázium",
-															"description": " ",
-															"timeStart": "10:00",
-															"timeEnd": "10:10",
-															"tracks": ["Megnyitó"]
-														}, {
-															"name": "Első forduló",
-															"location": "Földes Ferenc Gimnázium",
-															"description": "A kísérő tanárokat Veres Pál igazgató úr várja egy közös kávézásra, beszélgetésre, ahol belenézhetnek a feladatsorokba is.",
-															"timeStart": "10:10",
-															"timeEnd": "13:10",
-															"tracks": ["1. forduló"]
-														}, {
-															"name": "Ebéd",
-															"location": "Minorita Menza",
-															"description": " ",
-															"timeStart": "13:10",
-															"timeEnd": "14:15 am",
-															"tracks": ["Ebéd"]
-														}]
-													}, {
-														"time": "14:15",
-														"sessions": [{
-															"name": "Rendhagyó tanórák",
-															"location": "Földes Ferenc Gimnázium",
-															"description": "A szervezők kedvenc témáikról beszélnek egy-egy “tanóra” keretein belül.",
-															"timeStart": "14:15",
-															"timeEnd": "15:30",
-															"tracks": ["Rendhagyó órák"]
-														}, {
-															"name": "Társasjátékozás, Teaház",
-															"location": "Földes Ferenc Gimnázium",
-															"description": "Idén is sok-sok játékkal készülünk, hogy idén is egy nagyon jót tudjatok játszani egymással és velünk is. A Teaházban is számos játékos feladattal várunk benneteket, a jó hangulat mellé teát is biztosítunk.",
-															"timeStart": "14:15",
-															"timeEnd": "19:00",
-															"tracks": ["Társasjáték"]
-														}, {
-															"name": "Beszélgetés az egyetemekről",
-															"location": "Földes Ferenc Gimnázium",
-															"description": "Mi, szervezők több különböző egyetem, más-más szakjaira járunk. Ennek segítségével szeretnék megválaszolni az érdeklődők felsőoktatással kapcsolatos kérdéseit. Szóval gyertek és beszélgessetek velünk! Érdeklődhettek azzal kapcsolatban, hogy mit tanulunk az adott szakon, mit szeretünk benne, mire kell odafigyelni, miért éppen azt választottuk.",
-															"timeStart": "15:30",
-															"timeEnd": "16:30",
-															"tracks": ["Beszélgetés"]
-														}, {
-															"name": "Kvíz",
-															"location": "Földes Ferenc Gimnázium",
-															"description": "Ebben a programban általános műveltségeteket tehetitek próbára, három különböző kategóriában, korosztály szerint. A kérdéseket nem kell egyedül megválaszolnotok, hisz csapatokban versenyezve vehettek részt.",
-															"timeStart": "16:30",
-															"timeEnd": "18:00",
-															"tracks": ["Kvíz"]
-														}, {
-															"name": "Vacsora",
-															"location": "Karacs Teréz Kollégium",
-															"description": " ",
-															"timeStart": "18:30",
-															"timeEnd": "19:50",
-															"tracks": ["Kvíz"]
-														}]
-													},
-      {
-
-	[{
-											"date": "2017-02-12",
-											"groups": [{
-														"time": "7:15",
-														"sessions": [{
-															"name": "Reggeli",
-															"location": "Karacs Teréz Kollégium",
-															"description": " ",
-															"timeStart": "7:15",
-															"timeEnd": "8:15",
-															"tracks": ["Étkezés"]
-														}, 
-                                         {
-														"time": "9:00",
-														"sessions": [{
-															"name": "Második forduló",
-															"location": "Földes Ferenc Gimnázium",
-															"description": "A kísérő tanárok élőben követhetik a váltóversenyt a helyszíneken.",
-															"timeStart": "9:00",
-															"timeEnd": "10:30",
-															"tracks": ["2. forduló"]
-														}, 
-													}, {
-														"time": "10:45",
-														"sessions": [{
-															"name": "Licitálós rajzolós",
-															"location": "Földes Ferenc Gimnázium",
-															"description": "Egy új játékkal fogunk megismertetni benneteket, amelyet ott helyben lehet megtanulni. Hogy pontosan mi is ez, az legyen meglepetés :). Utána pedig kisebb-nagyobb csoportokban már mehet is a játék a szervezőkkel.",
-															"timeStart": "10:45",
-															"timeEnd": "12:00",
-															"tracks": ["licitálósjáték"]
-														}, {
-														"time": "12:00",
-														"sessions": [{
-															"name": "Ebéd",
-															"location": "Minorita Menza",
-															"description": " ",
-															"timeStart": "12:00",
-															"timeEnd": "13:15",
-															"tracks": ["Étkezés"]
-														}, {
-														"time": "13:15",
-														"sessions": [{
-															"name": "Megoldásismertetés",
-															"location": "Földes Ferenc Gimnázium",
-															"description": "Kategóriánként különböző termekben a szervezők elmondják a feladatok megoldásait, illetve ezt a javításból szerzett tapasztalatokkal kiegészítik (pl.: tipikus hibák, szép ötletek, pontozási szempontok, általánosítási lehetőségek).",
-															"timeStart": "13:15",
-															"timeEnd": "14:30",
-															"tracks": ["Megoldásismertetés"]
-														}, {
-														"time": "14:30",
-														"sessions": [{
-															"name": "Akadályverseny",
-															"location": "Földes Ferenc Gimnázium",
-															"description": "Körübelül 10-14 fős csapatokban kell megoldanotok az egyes állomások érdekes, vicces feladatait. Könnyen lehet, hogy a csapatnak szüksége lesz minden ügyességére, gyorsaságára és a csapattagok kooperativitására.
-                                              Ezalatt a kísérő tanárokat a szervezők egy beszélgetésre várják a verseny tapasztalatairól.",
-															"timeStart": "14:30",
-															"timeEnd": "17:30",
-															"tracks": ["Akadályverseny"]
-														}, {
-                              "time": "17:30",
-                              "session": [{
-                                  "name": "Vacsora",
-                                  "location": "Minorita Menza",
-                                  "description": " ",
-                                  "timeStart": "17:30",
-                                  "timeEnd": "18:30",
-                                  "tracks": ["Étkezés"]
-														},{
-                              "time": "17:30",
-                              "session": [{
-															  "name": "Ki, mit tud?",
-															  "location": "Földes Ferenc Gimnázium",
-															  "description": "Szeretnéd megmutatni a többieknek, hogy a természettudományokon kívül még mi minden mást tudsz? Akkor jelentkezz egy 3-5 perces produkcióval! Részletes feltételeket később fogjuk ismertetni.",
-															  "timeStart": "18:30",
-															  "timeEnd": "19:30",
-															  "tracks": ["Kimittud"]
-														}]
-													},
-                             {
-                              "time": "19:30",
-                              "session": [{
-															  "name": "Licit",
-															  "location": "Földes Ferenc Gimnázium",
-															  "description": "A Döntő során gyűjtött Dürer Dollárokkal lehet licitálni az értékes nyereményekért.",
-															  "timeStart": "19:30",
-															  "timeEnd": "21:00",
-															  "tracks": ["Licit"]
-														}]
-													},
-                                          [{
-											"date": "2017-02-13",
-											"groups": [{
-														"time": "7:30",
-														"sessions": [{
-															"name": "Reggeli",
-															"location": "Karacs Teréz Kollégium",
-															"description": "Közben hidegcsomagok átvétele.",
-															"timeStart": "7:30",
-															"timeEnd": "8:30",
-															"tracks": ["Étkezés"]
-														}, 
-                                         {
-														"time": "9:00",
-														"sessions": [{
-															"name": "Kijavított megoldások megtekintése",
-															"location": "Földes Ferenc Gimnázium",
-															"description": "Minden csapat megnézheti beadott megoldásait, illetve, hogy mire, hány pontot kapott.",
-															"timeStart": "9:00",
-															"timeEnd": "10:00",
-															"tracks": ["kijavított megoldások megtekintése"]
-														}, 
-													}, {
-														"time": "10:00",
-														"sessions": [{
-															"name": "Dürer, reneszánsz, matematika",
-															"location": "Földes Ferenc Gimnázium",
-															"description": "Hujter Mihály és Bálint közösen tart előadást Dürerről, a reneszánszról és a matematikáról, valamint kapcsolatukról. Számítanak a közönség aktív részvételére!",
-															"timeStart": "10:00",
-															"timeEnd": "11:00",
-															"tracks": ["előadás"]
-														}, {
-														"time": "11:00",
-														"sessions": [{
-															"name": "Eredményhirdetés",
-															"location": "Földes Ferenc Gimnázium",
-															"description": " ",
-															"timeStart": "11:00",
-															"timeEnd": "12:30",
-															"tracks": ["Étkezés"]
-														}, 
+							},
+              {
+                    "name": "Regisztráció",
+                    "location": "Karacs Teréz Kollégium",
+                    "description": "A csütörtökön érkező csapatok számára. A később érkezők számára péntek reggel, a verseny helyszínén biztosítjuk a regisztrációt.",
+                    "timeStart": "17:30",
+                    "timeEnd": "21:00",
+                    "tracks": ["Regisztráció"]
+            }]
+          },{
+              "time": "24:00",
+              "sessions": [{
+                    "name": "Takarodó",
+                    "timeStart": "24:00",
+                    "timeEnd": "24:10",
+                    "location": "Karacs Teréz Kollégium",
+                    "tracks": ["Étkezés"]
+              }
+             ]
+          }
+        ]},
+        {
+        "date": "2017-02-11",
+        "groups": [{
+              "time": "08:30",
+              "sessions": [{
+                    "name": "Reggeli",
+                    "timeStart": "08:30",
+                    "timeEnd": "19:00",
+                    "location": "Karacs Teréz Kollégium",
+                    "tracks": ["Étkezés"]
+              }]
+          },{
+              "time": "10:00",
+              "sessions": [{
+                    "name": "Verseny",
+                    "timeStart": "10:00",
+                    "timeEnd": "12:00",
+                    "location": "Karacs Teréz Kollégium",
+                    "tracks": ["Verseny"]
+              }
+             ]
+          }
+        ]}
+  ],
+									
 
 
   "organizers": [{
@@ -270,5 +90,5 @@
     "name": "Kanyó László",
     "email": "kemia [K] durerinfo [P] hu",
     "phone": "+1-541-754-3010"
-  } ],
+  }]
 }
