@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 
-import { AlertController, App, FabContainer, List, ModalController, NavController, LoadingController } from 'ionic-angular';
+import { AlertController, App, FabContainer, ItemSliding, List, ModalController, NavController, LoadingController } from 'ionic-angular';
 
 /*
   To learn how to use third party libs in an
@@ -28,7 +28,7 @@ export class OrganizersPage {
   segment = 'all';
   excludeTracks: any = [];
   shownSessions: any = [];
-  groups: any = [];
+  orgs: any =[];
   confDate: string;
 
   constructor(
@@ -42,10 +42,18 @@ export class OrganizersPage {
 
   ionViewDidLoad() {
     this.app.setTitle('Organizers');
-    // this.updateSchedule();
+    this.loadOrganizers();
+    console.log(this.orgs);
+    console.log("LoadO");
   }
 
-  
+  loadOrganizers() {
+    this.confData.load().subscribe((data: any) => {
+      this.orgs = data.organizers;
+    });
+    console.log(this.orgs);
+    console.log("- by loadOrganizers");
+  }
 
   goToSessionDetail(sessionData: any) {
     // go to the session detail page

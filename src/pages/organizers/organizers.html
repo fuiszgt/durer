@@ -4,8 +4,7 @@
       <ion-icon name="menu"></ion-icon>
     </button>
 
-
-    <ion-segment [(ngModel)]="segment" (ionChange)="updateSchedule()">
+    <ion-segment [(ngModel)]="segment" (ionChange)="loadOrganizers()">
       <ion-segment-button value="all">
         All
       </ion-segment-button>
@@ -22,6 +21,13 @@
   </ion-navbar> 
 
 
+  <ion-toolbar no-border-top>
+    <ion-searchbar color="primary"
+                   [(ngModel)]="queryText"
+                   (ionInput)="loadOrganizers()"
+                   placeholder="Search">
+    </ion-searchbar>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content>
@@ -34,13 +40,12 @@
           {{group.time}}
         </ion-label>
       </ion-item-divider>-->
-      <p>{{confData.getOrganizers()}}</p>
-      <ion-item-sliding *ngFor="let organizer of confData.organizers">
+      <ion-item *ngFor="let organizer of orgs">
 
         <!--<button ion-item (click)="goToSessionDetail(session)">-->
           <h3>{{organizer.name}}</h3>
           <p>
-            {{oganizer.name}} &mdash;
+            {{organizer.name}} &mdash;
             {{organizer.email}}&mdash;
             {{organizer.number}}&mdash;
           </p>
@@ -55,7 +60,7 @@
           </button>
         </ion-item-options>
 
-      </ion-item-sliding>
+      </ion-item>
 
     <!--</ion-item-group>-->
 

@@ -44,6 +44,8 @@ export class SchedulePage {
   ionViewDidLoad() {
     this.app.setTitle('Schedule');
     this.updateSchedule();
+    console.log(this.days);
+    console.log("LoadS");
   }
 
   updateSchedule() {

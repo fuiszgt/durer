@@ -15,19 +15,14 @@ export class ConferenceData {
   constructor(public http: Http) { }
 
   load(): any {
-    if (this.data) {
-      return Observable.of(this.data);
-    } else {
-      return this.http.get('assets/data/data.json')
-        .map(this.processData);
-    }
+    return this.http.get('assets/data/data.json')
+    .map(this.processData);
   }
 
   processData(data: any) {
     // just some good 'ol JS fun with objects and arrays
     // build up the data by linking speakers to sessions
     this.data = data.json();
-
     /*this.data.tracks = [];
 
     // loop through each day in the schedule
@@ -58,7 +53,8 @@ export class ConferenceData {
         });
       });
     });*/
-
+    console.log(this.data);
+    console.log("- by processData");
     return this.data;
   }
 
