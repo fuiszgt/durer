@@ -7,12 +7,14 @@ import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/observable/of';
 
+import { LocalNotifications } from '@ionic-native/local-notifications';
+
 
 @Injectable()
 export class ConferenceData {
   data: any;
 
-  constructor(public http: Http) { }
+  constructor(public http: Http, public localNotifications: LocalNotifications) { }
 
   load(): any {
     return this.http.get('assets/data/data.json')
@@ -53,6 +55,14 @@ export class ConferenceData {
         });
       });
     });*/
+
+    /*this.localNotifications.schedule({
+        text: 'Delayed ILocalNotification',
+        at: new Date(new Date().getTime()),
+        led: 'FF0000',
+        sound: null
+    });*/
+
     console.log(this.data);
     console.log("- by processData");
     return this.data;

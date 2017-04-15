@@ -8,6 +8,8 @@ import { SchedulePage } from '../pages/schedule/schedule';
 import { SessionDetailPage } from '../pages/session-detail/session-detail';
 import { OrganizersPage } from '../pages/organizers/organizers';
 import { ConferenceData } from '../providers/conference-data';
+import { LocalNotifications } from '@ionic-native/local-notifications';
+
 
 @NgModule({
   declarations: [

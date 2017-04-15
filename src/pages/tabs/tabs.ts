@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { LocalNotifications } from '@ionic-native/local-notifications';
 
 import { SchedulePage } from '../schedule/schedule';
 import { OrganizersPage } from '../organizers/organizers';

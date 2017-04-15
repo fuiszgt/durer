@@ -45,7 +45,7 @@ export class SchedulePage {
     this.app.setTitle('Schedule');
     this.updateSchedule();
     console.log(this.days);
-    console.log("LoadS");
+    console.log("LoadS")
   }
 
   updateSchedule() {
