@@ -11,6 +11,7 @@ import { AlertController, App, FabContainer, ItemSliding, List, ModalController,
 import { ConferenceData } from '../../providers/conference-data';
 /*import { ScheduleFilterPage } from '../schedule-filter/schedule-filter';*/
 import { SessionDetailPage } from '../session-detail/session-detail';
+import { LocalNotifications } from '@ionic-native/local-notifications';
 
 @Component({
   selector: 'page-schedule',
@@ -39,6 +40,7 @@ export class SchedulePage {
     public modalCtrl: ModalController,
     public navCtrl: NavController,
     public confData: ConferenceData,
+    public localNotifications: LocalNotifications
   ) {}
 
   ionViewDidLoad() {
@@ -46,6 +48,15 @@ export class SchedulePage {
     this.updateSchedule();
     console.log(this.days);
     console.log("LoadS")
+  }
+
+  notify(){
+        this.localNotifications.schedule({
+            title: "Test Title",
+            text: "Delayed Notification",
+            at: new Date(new Date().getTime() + 5 * 1000),
+            sound: null
+        });
   }
 
   updateSchedule() {

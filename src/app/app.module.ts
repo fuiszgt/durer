@@ -34,6 +34,6 @@ import { LocalNotifications } from '@ionic-native/local-notifications';
     SessionDetailPage,
     OrganizersPage
   ],
-  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, ConferenceData]
+  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, ConferenceData, LocalNotifications]
 })
 export class AppModule {}
