@@ -19,8 +19,8 @@ export class SessionDetailPage {
 
   notify(){
         this.localNotifications.schedule({
-            title: "Test Title",
-            text: "Delayed Notification",
+            title: "Várunk a következő programon: ",
+            text: this.session.name,
             at: new Date(new Date().getTime() + 5 * 1000), //session.timeStart
             sound: null
         });
