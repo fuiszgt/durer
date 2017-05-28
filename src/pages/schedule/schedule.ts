@@ -11,6 +11,7 @@ import { AlertController, App, FabContainer, ItemSliding, List, ModalController,
 import { ConferenceData } from '../../providers/conference-data';
 /*import { ScheduleFilterPage } from '../schedule-filter/schedule-filter';*/
 import { SessionDetailPage } from '../session-detail/session-detail';
+import { ScheduleFilterPage } from '../schedule-filter/schedule-filter';
 import { LocalNotifications } from '@ionic-native/local-notifications';
 
 @Component({
@@ -59,6 +60,40 @@ export class SchedulePage {
         });
   }
 
+  check(session: any){
+    let matchesQueryText = false;
+    let queryText = this.queryText.toLowerCase().replace(/,|\.|-/g, ' ');
+    let queryWords = queryText.split(' ').filter(w => !!w.trim().length);
+    if (queryWords.length) {
+      // of any query word is in the session name than it passes the query test
+      queryWords.forEach((queryWord: string) => {
+        if (session.name.toLowerCase().indexOf(queryWord) > -1) {
+          matchesQueryText = true;
+        }
+      });
+    } else {
+      // if there are no query words then this session passes the query test
+      matchesQueryText = true;
+    }
+
+    // if any of the sessions tracks are not in the
+    // exclude tracks then this session passes the track test
+    let matchesTracks = false;
+    session.tracks.forEach((trackName: string) => {
+      if (this.excludeTracks.indexOf(trackName) === -1) {
+        matchesTracks = true;
+      }
+    });
+
+    // if the segement is 'favorites', but session is not a user favorite
+    // then this session does not pass the segment test
+    //let matchesSegment = true;
+  
+
+    // all tests must be true if it should not be hidden
+    return !(matchesQueryText && matchesTracks);
+  }
+
   updateSchedule() {
     // Close any open sliding items when the schedule updates
     this.scheduleList && this.scheduleList.closeSlidingItems();
@@ -71,18 +106,28 @@ export class SchedulePage {
     });*/
   }
 
-  /*presentFilter() {
-    let modal = this.modalCtrl.create(ScheduleFilterPage, this.excludeTracks);
+  presentFilter() {
+    let modal = this.modalCtrl.create(ScheduleFilterPage, {
+      excluded: this.excludeTracks,
+      query: this.queryText
+    });
     modal.present();
 
-    modal.onWillDismiss((data: any[]) => {
+    modal.onWillDismiss((data: any) => {
       if (data) {
-        this.excludeTracks = data;
-        this.updateSchedule();
+        this.excludeTracks = data.excluded;
+        this.queryText = data.query;
+        /*this.updateSchedule();*/
       }
     });
 
-  }*/
+  }
+
+  resetFilters() {
+    // reset all of the toggles to be checked
+    this.excludeTracks=[];
+    this.queryText='';
+  }
 
   goToSessionDetail(sessionData: any) {
     // go to the session detail page

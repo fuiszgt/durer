@@ -12,7 +12,7 @@ import { ConferenceData } from '../providers/conference-data';
 import { MyData } from '../providers/my-data';
 import { LocalNotifications } from '@ionic-native/local-notifications';
 import { IonicStorageModule } from '@ionic/storage';
-
+import {ScheduleFilterPage} from '../pages/schedule-filter/schedule-filter'
 
 @NgModule({
   declarations: [
@@ -23,7 +23,8 @@ import { IonicStorageModule } from '@ionic/storage';
     SchedulePage,
     SessionDetailPage,
     MySchedulePage,
-    OrganizersPage
+    OrganizersPage,
+    ScheduleFilterPage
   ],
   imports: [
     IonicModule.forRoot(MyApp),
@@ -38,7 +39,8 @@ import { IonicStorageModule } from '@ionic/storage';
     SchedulePage,
     MySchedulePage,
     SessionDetailPage,
-    OrganizersPage
+    OrganizersPage,
+    ScheduleFilterPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, ConferenceData, LocalNotifications, MyData]
 })
