@@ -2,19 +2,20 @@
   "schedule": [{
 				"date": "2017-02-10",
 				"groups": [{
-							"time": "17:30",
-							"sessions": [{
-										"name": "Vacsora",
-										"timeStart": "17:30",
-										"timeEnd": "19:00",
-										"location": "Karacs Teréz Kollégium",
-										"tracks": ["Étkezés"]
-							},
+					"time": "17:00",
+					"sessions": [{
+					"name": "Vacsora",
+					"timeStart": "17:00",
+					"timeEnd": "18:30",
+					"location": "Minorita Menza",
+                    "description": "A később érkező csapatok a Karacs Teréz Kollégiumban tudják átvenni a hidegtálakat."
+					"tracks": ["Étkezés"]
+					},
               {
                     "name": "Regisztráció",
                     "location": "Karacs Teréz Kollégium",
                     "description": "A csütörtökön érkező csapatok számára. A később érkezők számára péntek reggel, a verseny helyszínén biztosítjuk a regisztrációt.",
-                    "timeStart": "17:30",
+                    "timeStart": "17:00",
                     "timeEnd": "21:00",
                     "tracks": ["Regisztráció"]
             }]
@@ -33,45 +34,178 @@
         {
         "date": "2017-02-11",
         "groups": [{
-              "time": "08:30",
+              "time": "07:00",
               "sessions": [{
-                    "name": "Reggeli",
-                    "timeStart": "08:30",
-                    "timeEnd": "19:00",
+                    "name": "Buszok indulása",
+                    "timeStart": "07:00",
+                    "timeEnd": "08:30",
                     "location": "Karacs Teréz Kollégium",
-                    "tracks": ["Étkezés"]
+                    "tracks": ["Utazás"]
               }]
+          },{
+              "time": "07:00",
+              "sessions": [{
+                    "name": "Regggeli",
+                    "timeStart": "07:00",
+                    "timeEnd": "08:50",
+                    "location": "Minorita Menza",
+                    "tracks": ["Étkezés"]
+              }
+             ]
           },{
               "time": "10:00",
               "sessions": [{
-                    "name": "Verseny",
+                    "name": "Megnyitó",
                     "timeStart": "10:00",
-                    "timeEnd": "12:00",
-                    "location": "Karacs Teréz Kollégium",
+                    "timeEnd": "10:10",
+                    "location": "Földes Ferenc Gimnázium",
                     "tracks": ["Verseny"]
+              }
+             ]
+          },{
+              "time": "10:10",
+              "sessions": [{
+                    "name": "Verseny/1.",
+                    "timeStart": "10:10",
+                    "timeEnd": "13:10",
+                    "location": "Földes Ferenc Gimnázium",
+					"description": "A, B kategória - Tornaterem (földszint)
+									C, C+, D, D+ kategória - Nagyterem (1. emelet)
+									F kategória	- Tornaterem (földszint)
+									K kategória - Ifiklub (földszint)
+									K+ kategória - Kémia Labor
+									Ezalatt a kísérő tanárokat Veres Pál igazgató úr várja egy kávézással egybekötött beszélgetésre az igazgatói irodában."
+                    "tracks": ["Verseny"]
+              }
+             ]
+          },{
+              "time": "13:10",
+              "sessions": [{
+                    "name": Ebéd",
+                    "timeStart": "13:10",
+                    "timeEnd": "14:15",
+                    "location": "Minorita Menza",
+					"tracks": ["Étkezés"]
+              }
+             ]
+          },{
+              "time": "14:30",
+              "sessions": [{
+                    "name": "Rendhagyó tanórák",
+                    "timeStart": "14:30",
+                    "timeEnd": "16:00",
+                    "location": " Földes Ferenc Gimnázium",
+					"description": "Kun Gábor: Rablók és pandúrok gráfokon 
+									(C+, D+ kat.-nak és matematikatanároknak ajánljuk)	I. em. 21. terem
+									
+									Serfőző Lőrinc: Játékfejlesztés kezdőknek 
+									(középiskolásoknak ajánljuk)	I. em. 22. terem"
+					"tracks": [" Program"]
+              }
+             ]
+          },{
+              "time": "14:30",
+              "sessions": [{
+                    "name": "Társasjátékozás",
+                    "timeStart": "14:30",
+                    "timeEnd": "19:00",
+                    "location": " Földes Ferenc Gimnázium, Teaház",
+					"tracks": [" Program"]
+              }
+             ]
+          },
+		  {
+              "time": "19:00",
+              "sessions": [{
+                    "name": "Vacsora",
+                    "timeStart": "19:00",
+                    "timeEnd": "20:00",
+                    "location": " Lévay József Kollégium",
+					"tracks": [" Étkezés"]
+              }
+             ]
+          },
+        ]}
+		
+		{
+        "date": "2017-02-12",
+        "groups": [{
+              "time": "07:30",
+              "sessions": [{
+                    "name": "Reggeli",
+                    "timeStart": "07:30",
+                    "timeEnd": "08:30",
+                    "location": "Lévay József Kollégium",
+                    "tracks": ["Étkezés"]
+              }]
+          },{
+              "time": "09:00",
+              "sessions": [{
+                    "name": "Verseny/2.",
+                    "timeStart": "09:00",
+                    "timeEnd": "10:30",
+                    "location": "Földes Ferenc Gimnázium",
+					"description": "A, B kategória - tornaterem (földszint)
+									C, C+, D, D+ kategória - Nagyterem
+									F kategória - tornaterem (földszint)
+									K kategória - Ifiklub (földszint)
+									K+ kategória - Kémia Labor
+									A kísérő tanárok élőben követhetik a váltóversenyt a helyszíneken."
+                    "tracks": ["Verseny"]
+              }
+             ]
+          },{
+              "time": "10:50",
+              "sessions": [{
+                    "name": "Nagy közös játék",
+                    "timeStart": "10:50",
+                    "timeEnd": "12:00",
+                    "location": "Földes Ferenc Gimnázium",
+                    "tracks": ["Program"]
+              }
+             ]
+          },{
+              "time": "12:00",
+              "sessions": [{
+                    "name": Ebéd",
+                    "timeStart": "12:00",
+                    "timeEnd": "13:30",
+                    "location": "Földes Ferenc Gimnázium",
+                    "tracks": ["Étkezés"]
+              }
+             ]
+          },{
+              "time": "13:10",
+              "sessions": [{
+                    "name": Előadás",
+                    "timeStart": "13:40",
+                    "timeEnd": "15:00",
+                    "location": "Földes Ferenc Gimnázium",
+					"tracks": ["Program"]
               }
              ]
           }
         ]}
-  ],
+         
 									
 
 
   "organizers": [{
         "name": "Szűcs Gábor",
-        "email": "@",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "number": "1000000"
+        "email": "szgabbor [K] gmail [P] com",
+        "number": "+1-541-754-3010"
       }, {
-        "name": "Szűcs Gábor",
-        "email": "@",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "number": "1000000"
+        "name": "Farkas Ádám László",
+        "email": "faadamla [K] gmail [P] com",
+        "number": "+1-541-754-3010"
       }, {
-        "name": "Szűcs Gábor",
-        "email": "@",
-        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-        "number": "1000000"
+        "name": "Czeller Ildi",
+        "email": "matek [K] durerinfo [P] hu",
+        "number": "+1-541-754-3010"
+      }, {
+        "name": "Kanyó László",
+        "email": "kemia [K] durerinfo [P] hu",
+        "number": "+1-541-754-3010"
       }],
 
   "speakers": [{
@@ -92,3 +226,5 @@
     "phone": "+1-541-754-3010"
   }]
 }
+
+
