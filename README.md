@@ -1,5 +1,5 @@
 # durer
-mobilapp a [Dürer Verseny](durerinfo.hu)hez
+mobilapp a [Dürer Verseny](http://durerinfo.hu)hez
 
 Az app [ionic framework](https://ionicframework.com/)kel készült, így a futtatás lépései ionic telepítés után:
 
