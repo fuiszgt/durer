@@ -67,7 +67,7 @@
 						"timeStart": "10:10",
 						"timeEnd": "13:10",
 						"location": "Földes Ferenc Gimnázium",
-						"description": "A, B kategória - Tornaterem (földszint) C, C +, D, D + kategória - Nagyterem(1. emelet) F kategória - Tornaterem(földszint) K kategória - Ifiklub(földszint) K + kategória - Kémia Labor Ezalatt a kísérő tanárokat Veres Pál igazgató úr várja egy kávézással egybekötött beszélgetésre az igazgatói irodában.",
+						"description": "A, B kategória - Tornaterem (földszint) \n C, C +, D, D + kategória - Nagyterem(1. emelet) \n F kategória - Tornaterem(földszint) \n K kategória - Ifiklub(földszint) \n K + kategória - Kémia Labor \n Ezalatt a kísérő tanárokat Veres Pál igazgató úr várja egy kávézással egybekötött beszélgetésre az igazgatói irodában.",
 						"tracks": ["Verseny"]
 					}]
 				}, {
@@ -130,7 +130,7 @@
 					"timeStart": "09:00",
 					"timeEnd": "10:30",
 					"location": "Földes Ferenc Gimnázium",
-					"description": "A, B kategória - tornaterem (földszint) C, C + , D, D + kategória - Nagyterem F kategória - tornaterem(földszint) K kategória - Ifiklub(földszint) K + kategória - Kémia Labor A kísérő tanárok élőben követhetik a váltóversenyt a helyszíneken.",
+					"description": "A, B kategória - tornaterem (földszint) \n C, C + , D, D + kategória - Nagyterem \n F kategória - tornaterem(földszint) \n K kategória - Ifiklub(földszint) \n K + kategória - Kémia Labor \n A kísérő tanárok élőben követhetik a váltóversenyt a helyszíneken.",
 					"tracks": ["Verseny"]
 				}]
 			}, {
