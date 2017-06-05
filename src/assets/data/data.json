@@ -87,7 +87,7 @@
 						"timeEnd": "16:00",
 						"location": " Földes Ferenc Gimnázium",
 						"description": "Kun Gábor: Rablók és pandúrok gráfokon  (C + , D + kat. - nak és matematikatanároknak ajánljuk) I.em .21.terem",
-						"tracks": [" Program"]
+						"tracks": ["Program"]
 					}]
 				}, {
 					"time": "14:30",
@@ -96,7 +96,7 @@
 						"timeStart": "14:30",
 						"timeEnd": "19:00",
 						"location": " Földes Ferenc Gimnázium, Teaház",
-						"tracks": [" Program"]
+						"tracks": ["Program"]
 					}]
 				},
 				{
@@ -106,7 +106,7 @@
 						"timeStart": "19:00",
 						"timeEnd": "20:00",
 						"location": " Lévay József Kollégium",
-						"tracks": [" Étkezés"]
+						"tracks": ["Étkezés"]
 					}]
 				}
 			]
